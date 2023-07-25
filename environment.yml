@@ -1,0 +1,19 @@
+name: synthoseis
+channels:
+  - conda-forge
+  - plotly
+  - defaults
+dependencies:
+  - h5py
+  - matplotlib
+  - numpy
+  - python=3.7.12=hf930737_100_cpython #3.9
+  - scikit-image
+  - scipy
+  - tqdm
+  - pytables
+  - plotly
+  - pip
+  - pip:
+    - bruges
+    - noise
